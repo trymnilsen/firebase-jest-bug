@@ -1,0 +1,16 @@
+{
+  "name": "firebase-emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "no-bug": "node index.js",
+    "bug": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^9.4.1",
+    "jest": "^26.6.3"
+  }
+}
