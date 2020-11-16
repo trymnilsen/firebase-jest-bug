@@ -5,7 +5,7 @@ function createUser() {
     process.env["FIRESTORE_EMULATOR_HOST"] = "localhost:5002";
     
     const adminApp = firebase.initializeApp({
-        projectId: "<project-id-here>",
+        projectId: "project-id-here",
     });
     
     return (name, age) => {
